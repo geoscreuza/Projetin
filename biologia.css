@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-nav{
-    background-color: #493d9e;
-}
+
 
 nav li{
     display: inline-block;
