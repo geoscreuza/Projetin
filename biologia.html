@@ -28,13 +28,28 @@
         </div>
 
 
-        <div class="links-principais">
-            <ul class="lista-horizontal">
-                <li><a href="#provas">Provas</a></li>
-                <li><a href="#relatorios">Relatórios</a></li>
-                <li><a href="#atividades">Atividades</a></li>
-            </ul>
-        </div>
+         <nav>
+        <ul>
+            <li class="dropdown">
+                <a href="">Disciplinas</a>
+
+                <div class="dropdown-menu">
+                    <a href="#" onclick="mudarDisciplina('Matemática')">Matemática</a>
+                    <a href="#" onclick="mudarDisciplina('Física')">Física</a>
+                    <a href="#" onclick="mudarDisciplina('Química')">Química</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" onclick="mostrarConteudo('atividades')">Atividades</a>
+            </li>
+            <li class="dropdown">
+                <a href="#" onclick="mostrarConteudo('provas')">Provas</a>
+            </li>
+            <li class="dropdown">
+                <a href="#" onclick="mostrarConteudo('relatorios')">Relatório</a>
+            </li>
+        </ul>
+    </nav>
     </header>
     <main>
         <div class="home">
