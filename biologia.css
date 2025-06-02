@@ -5,7 +5,7 @@
 }
 
 nav{
-    background-color: #333;
+    background-color: #493d9e;
 }
 
 nav li{
@@ -25,7 +25,7 @@ nav li a:hover{
 
 .dropdown-menu{
     position: absolute;
-    box-shadow: 0 0 2px #493d9e;
+    box-shadow: 0 0 2px black;
     display: none;
     
 }
