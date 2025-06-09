@@ -4,12 +4,20 @@
     box-sizing: border-box;
 }
 
+
+
+
+
 nav li a{
     display: inline-block;
-    color: #99bc85;
     text-decoration: none;
     padding: 15px;
     font-size: 2rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 1.05rem 1.5rem;
+    color: var(--roxo-claro);
 }
 
 nav li a:hover{
@@ -26,7 +34,7 @@ nav li a:hover{
 .dropdown-menu a{
     display: block;
     color: black;
-    
+    background-color: #B2A5FF;
 }
 
 .dropdown:hover .dropdown-menu{
@@ -133,6 +141,7 @@ header {
 .lista-horizontal a {
     text-decoration: none;
     color: var(--amarelo-claro);
+     display: inline-block;
 }
 
 .lista-horizontal a:hover {
@@ -151,7 +160,7 @@ h1 {
     font-size: 4rem;
 }
 
-.fisica-container {
+.biologia-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
