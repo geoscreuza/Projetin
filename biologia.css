@@ -4,17 +4,7 @@
     box-sizing: border-box;
 }
 
-nav li a {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    font-size: 2rem;
-    cursor: pointer;
-    background: none;
-    border: none;
-    color: var(--roxo-claro);
-}
+
 
 
 
@@ -27,11 +17,11 @@ nav li a {
     background: none;
     border: none;
     color: var(--roxo-claro);
-}
+}*/
 
 nav li a:hover{
     background-color: white;
-}*/
+}
 
 .dropdown-menu{
     position: absolute;
