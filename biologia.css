@@ -6,9 +6,7 @@
 
 
 
-nav li{
-    display: inline-block;
-}
+
 
 nav li a{
     display: inline-block;
@@ -143,6 +141,7 @@ header {
 .lista-horizontal a {
     text-decoration: none;
     color: var(--amarelo-claro);
+     display: inline-block;
 }
 
 .lista-horizontal a:hover {
