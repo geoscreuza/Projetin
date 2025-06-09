@@ -6,9 +6,31 @@
 
 nav li a{
     display: inline-block;
-    color: white;
+    color: #99bc85;
     text-decoration: none;
     padding: 15px;
+    font-size: 2rem;
+}
+
+nav li a:hover{
+    background-color: white;
+}
+
+.dropdown-menu{
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+    
+}
+
+.dropdown-menu a{
+    display: block;
+    color: black;
+    
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
 }
 
 :root {
