@@ -5,45 +5,10 @@
 }
 
 
-nav{
-    background-color: #333;
-}
 
-nav li{
-    display: inline-block;
-}
+
 
 nav li a{
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-}
-
-nav li a:hover{
-    background-color: red;
-}
-
-.dropdown-menu{
-    position: absolute;
-    box-shadow: 0 0 2px black;
-    display: none;
-    
-}
-
-.dropdown-menu a{
-    display: block;
-    color: black;
-    
-}
-
-.dropdown:hover .dropdown-menu{
-    display: block;
-}
-
-
-
-/*nav li a{
     display: inline-block;
     text-decoration: none;
     padding: 15px;
@@ -56,7 +21,7 @@ nav li a:hover{
 
 nav li a:hover{
     background-color: white;
-}*/
+}
 
 .dropdown-menu{
     position: absolute;
@@ -172,11 +137,11 @@ header {
 }
 
 
-/*.lista-horizontal a {
+.lista-horizontal a {
     text-decoration: none;
     color: var(--amarelo-claro);
      display: inline-block;
-}*/
+}
 
 .lista-horizontal a:hover {
     color: var(--preto);
