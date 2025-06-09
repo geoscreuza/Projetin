@@ -17,16 +17,19 @@
 <body>
     <header>
 
-        <div class="menu-disciplina">
-            <input type="checkbox" id="menu-toggle">
-            <label for="menu-toggle" class="botao-disciplinas">Disciplinas</label>
-            <div class="lista-vertical">
-                <a href="#">Matemática</a>
-                <a href="#">biologia</a>
-                <a href="#">Química</a>
-            </div>
-        </div>
+        <nav>
+        <ul>
+            <li class="dropdown">
+                <a href="">Disciplinas</a>
 
+                <div class="dropdown-menu">
+                    <a href="#" onclick="mudarDisciplina('Matemática')">Matemática</a>
+                    <a href="#" onclick="mudarDisciplina('Física')">Física</a>
+                    <a href="#" onclick="mudarDisciplina('Química')">Química</a>
+                </div>
+            </li>
+ </ul>
+    </nav>
 
         <div class="links-principais">
             <ul class="lista-horizontal">
