@@ -12,10 +12,15 @@ nav li{
 
 nav li a{
     display: inline-block;
-    color: #99bc85;
     text-decoration: none;
     padding: 15px;
     font-size: 2rem;
+    cursor: pointer;
+    background: none;
+    background-color: var(--preto);
+    border: none;
+    padding: 1.05rem 1.5rem;
+    color: var(--roxo-claro);
 }
 
 nav li a:hover{
