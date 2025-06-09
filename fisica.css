@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
 :root {
     --preto: #000000;
     --marinho: #493D9E;
