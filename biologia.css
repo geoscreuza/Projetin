@@ -34,7 +34,7 @@ nav li a:hover{
 .dropdown-menu a{
     display: block;
     color: black;
-    background-color: #B2A5FF;
+    background-color: white;
 }
 
 .dropdown:hover .dropdown-menu{
@@ -45,7 +45,7 @@ nav li a:hover{
     --preto: #000000;
     --marinho: #333;
     --amarelo-claro:white;
-    --roxo-claro:#B2A5FF;
+    --roxo-claro:white;
     --verde: black;
     --azul-claro: darkgrey;
     --branco: #FFFFFF;
